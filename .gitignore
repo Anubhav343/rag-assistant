@@ -1,0 +1,23 @@
+# Python Environments & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Environment Variables (Keep your API keys safe)
+.env
+
+# Django Database & Media
+*.sqlite3
+db.sqlite3
+media/
+static/
+documents/
+
+# RAG / FAISS specific
+faiss_index.bin
+
+# OS generated files
+.DS_Store
+Thumbs.db
